@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 진영이의 하루 지출 내역은 교통비 3000원, 식비 6000원, 음료비 3000원입니다. 
+        삼항 조건 연산자를 사용하여 하루 적정비용인 1만 원을 초과했을 경우에는 "000원 초과"라고 출력하고,
+        아닐 경우에는 " 돈 관리 잘 했어요!" 라고 출력하세요. -->
+    <script>
+
+        var price1 = 3000;
+        var price2 = 6000;
+        var price3 = 9000;
+        var Sum_price = price1+price2+price3;
+
+        var result = Sum_price > 10000 ? Sum_price - 10000+"원 초과" : "돈 관리 잘 했어요!";
+
+        document.write(result);
+
+    
+        var sell1 = 1200;
+        var sell2 = 1300;
+        var sell3 = 1000;
+        var sell4 = prompt("4분기 판매량은?", "0");
+        
+        var result2 = sell4 >= sell3 ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다.";
+
+        
+
+
+    </script>
+</body>
+</html>
